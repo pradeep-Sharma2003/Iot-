@@ -1,0 +1,67 @@
+tinkercad rgb light
+
+
+
+// C++ code
+//
+void setup()
+{
+  pinMode(11, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(8, OUTPUT);
+}
+
+void loop()
+{
+  analogWrite(11, 153);
+  analogWrite(9, 0);
+  analogWrite(6, 0);
+  analogWrite(12, 0);
+  analogWrite(10, 0);
+  analogWrite(8, 0);
+  delay(1000);
+
+  analogWrite(11, 0);
+  analogWrite(9, 153);
+  analogWrite(6, 0);
+  analogWrite(12, 0);
+  analogWrite(10, 0);
+  analogWrite(8, 0);
+  delay(1000);
+
+  analogWrite(11, 0);
+  analogWrite(9, 0);
+  analogWrite(6, 153);
+  analogWrite(12, 0);
+  analogWrite(10, 0);
+  analogWrite(8, 0);
+  delay(1000);
+  
+  
+  analogWrite(11, 0);
+  analogWrite(9, 0);
+  analogWrite(6, 0);
+  analogWrite(12, 153);
+  analogWrite(10, 0);
+  analogWrite(8, 0);
+  delay(1000);
+
+  analogWrite(11, 0);
+  analogWrite(9, 0);
+  analogWrite(6, 0);
+  analogWrite(12, 0);
+  analogWrite(10, 153);
+  analogWrite(8, 0);
+  delay(1000);
+
+  analogWrite(11, 0);
+  analogWrite(9, 0);
+  analogWrite(6, 0);
+  analogWrite(12, 0);
+  analogWrite(10, 0);
+  analogWrite(8, 153);
+  delay(1000);
+}
